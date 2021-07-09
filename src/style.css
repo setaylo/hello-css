@@ -1,0 +1,27 @@
+:root {
+  --theme-font-size: 16px;
+  --theme-red: rgb(255, 7, 7);
+}
+
+html {
+  font-size: var(--theme-font-size);
+  font-family: font-family: "Uchen", serif;
+}
+.red {
+    color: var(--theme-red)
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  p:hover {
+    text-decoration: underline;
+  }
+
+  h1 {
+    padding: 1rem;
+    border: 0.25rem solid black;
+  }
